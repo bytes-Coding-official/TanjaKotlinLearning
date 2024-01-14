@@ -1,7 +1,5 @@
 import java.awt.Color
 import java.awt.Dimension
-import java.awt.event.MouseAdapter
-import java.awt.event.MouseEvent
 import javax.swing.*
 import kotlin.system.exitProcess
 
@@ -87,7 +85,7 @@ class MyFrame(title: String) : JFrame() {
             gl.createSequentialGroup()
                 .addComponent(card1)
         )
-        
+
         pack()
         defaultCloseOperation = EXIT_ON_CLOSE
         setSize(800, 600)  // Set the initial size
